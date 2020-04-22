@@ -16,7 +16,7 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
-    if array.rindex {|x| x == "cheddar"}
+    if array.include? {|x| x == "cheddar"}
     end
 end
 
