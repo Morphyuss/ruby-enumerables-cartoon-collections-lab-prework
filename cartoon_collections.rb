@@ -16,7 +16,8 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
-    if array.index("cheddar") {|x| x == "cheese_types"}
+    if array.index("cheddar") #{|x| x == "cheese_types"}
+      return cheese_types.index
     end
 end
 
