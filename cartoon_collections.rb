@@ -18,8 +18,23 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
     array.include?("cheddar")
-    
 end
 
+def find_the_cheese(array)
+  cheese_types = ["cheddar", "gouda", "camembert"]
+  array.each do |string|
+     cheese_types.include?("cheddar")
+  end
+end
+
+=begin
+def find_the_cheese(array)
+  cheese_types = ["cheddar", "gouda", "camembert"]
+  array.find { |a| cheese_types.include?(a) }
+end
+What you wanted to write was probably
+
+array.find { |a| a == "cheddar" || a == "gouda" || a == "camembert" }
   #cheese_types[0] == "cheddar"
   #string = cheese_types.join(", ").include?("cheddar")
+=end
