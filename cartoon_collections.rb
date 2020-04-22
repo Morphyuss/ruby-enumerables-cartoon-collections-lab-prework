@@ -23,5 +23,3 @@ end
   #cheese_types = ["cheddar", "gouda", "camembert"]
   #cheese_types[0] == "cheddar"
   #string = cheese_types.join(", ").include?("cheddar")
-
-end
